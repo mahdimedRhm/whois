@@ -5,8 +5,8 @@ import About from './components/About.vue'
 
 <template>
   <NavBar />
-  <main class="flex-grow">
-    <div class="border border-gray-300 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10">
+  <main >
+    <div class="bg-neutral-900">
       <router-view></router-view>
     </div>
   </main>

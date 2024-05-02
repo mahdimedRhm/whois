@@ -8,6 +8,10 @@ export default {
   variants: {
     extend: {},
   },
+  content: [
+    // './src/**/*.{html,js}',
+      'node_modules/preline/dist/*.js',
+  ],
   plugins: [],
 }
 

@@ -1,9 +1,11 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
+import "preline/preline";
+
 import App from './App.vue'
+
 // import Home from './Home.vue'
-import About from './components/About.vue'
 // import Contact from './Contact.vue'
 
 import './index.css'
